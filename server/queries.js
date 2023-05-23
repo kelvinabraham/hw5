@@ -10,7 +10,7 @@ const pool = new POOL({
   port: 5432,
 });
 
-// Create all the functions that will be our request handlers in our express server
+// Create all the functions that will be our request handlers in our expres server
 
 // Create a new link in the db
 

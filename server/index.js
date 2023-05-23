@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: ture }));
 
 const PORT = 9001;
 
-// host react app as static files
+// host react app as static file
 app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 // Routes
